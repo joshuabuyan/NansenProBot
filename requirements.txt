@@ -1,3 +1,6 @@
-pyTelegramBotAPI==4.15.4
+python-telegram-bot==20.7
+aiohttp==3.9.3
+async-timeout==4.0.3
 requests==2.31.0
-
+feedparser==6.0.11
+python-dotenv==1.0.1

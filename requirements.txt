@@ -1,6 +1,28 @@
+# Core dependencies
 python-telegram-bot==20.7
-aiohttp==3.9.3
-async-timeout==4.0.3
+httpx==0.25.2
+python-dotenv==1.0.0
+
+# HTTP clients
+aiohttp==3.9.1
 requests==2.31.0
-feedparser==6.0.11
-python-dotenv==1.0.1
+
+# Exchange integration (Multi-exchange support)
+ccxt==4.2.25
+
+# Data processing
+pandas==2.1.4
+numpy==1.26.2
+
+# Utilities
+feedparser==6.0.10
+pytz==2023.3
+
+# Math/Scientific
+scipy==1.11.4
+
+# Development/Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.12.1
+flake8==6.1.0

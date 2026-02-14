@@ -1,0 +1,15 @@
+[phases.setup]
+nixPkgs = ["python311", "gcc", "g++"]
+
+[phases.install]
+cmds = [
+    "pip install --upgrade pip setuptools wheel",
+    "pip install --no-cache-dir --only-binary :all: numpy",
+    "pip install --no-cache-dir -r requirements.txt"
+]
+
+[phases.build]
+cmds = ["echo 'Build complete'"]
+
+[start]
+cmd = "python app.py"
